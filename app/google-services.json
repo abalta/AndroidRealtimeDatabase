@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "249269013604",
+    "firebase_url": "https://androidrealtimedatabase-19337.firebaseio.com",
+    "project_id": "androidrealtimedatabase-19337",
+    "storage_bucket": "androidrealtimedatabase-19337.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249269013604:android:0584140c50765db1",
+        "android_client_info": {
+          "package_name": "com.abdullahbalta.androidrealtimedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249269013604-41adi79v5h9fegdkob76t4u53r7tiev4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCga2K2CXFN7XNl2g6XarDiBxQSK5YFxgw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

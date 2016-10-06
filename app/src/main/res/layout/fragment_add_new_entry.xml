@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_background"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:gravity="center"
+    tools:context="com.abdullahbalta.androidrealtimedatabase.fragment.AddNewEntryFragment">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="10dp">
+
+        <EditText
+            android:id="@+id/input_inventor_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bilim Adamının İsmini Giriniz" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="10dp">
+
+        <EditText
+            android:id="@+id/input_inventor_wiki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bilim Adamının Wikipedia Linki" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="10dp">
+
+        <EditText
+            android:id="@+id/input_inventor_image_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bilim Adamının Resim Linki" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/chooseinventor_professions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_background"
+            android:text="Bilim adamının özelliklerini seçiniz"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/apply_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_background"
+            android:text="KAYDET" />
+
+</LinearLayout>

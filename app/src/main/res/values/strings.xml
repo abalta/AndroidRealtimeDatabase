@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidRealtimeDatabase</string>
+    <string name="backdrop_title">Firebase Realtime Database</string>
+    <string name="backdrop_subtitle">http://abdullahbalta.com</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_edit">Edit Entry</string>
+    <string name="action_delete">Delete Entry</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
